@@ -58,7 +58,10 @@ The program you write in this project will run from the command line. It won't t
 
 ### Usage
 
+1. Run the below command
 ``` > python newsdata.py ```  
+2. Open ```http://localhost:8000/```
+3. If **8000** port is already occupied then change the port no in *** newsdata.py *** line no:27
 
 
 ### DB Username and password  
