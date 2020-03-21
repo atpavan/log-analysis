@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+
+
+{% block bodyTitle %}
+    <h1>Data</h1>
+{% endblock %}
+
+{% block body %}
+
+    {% for article_name, views in  items %}
+
+        <div class=post><em class=date>{{article_name.strftime("%b %d, %Y")}}</em> - {{views}}% errors</div>
+    {% endfor %}
+{% endblock %}
+
+{% block links %}
+
+    <a href="/">Home</a><br />
+    <a href="/top-articles">Top Articles</a> <br />
+    <a href="/top-authors">Top Authors</a> <br />
+    <a href="/failed-reqs">Most frequent failed Requests</a><br />
+
+{% endblock %}
