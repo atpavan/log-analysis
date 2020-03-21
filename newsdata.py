@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, render_template
 from newsdb import most_popular_articles, most_popular_authors, request_errors
 
 
