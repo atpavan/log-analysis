@@ -22,7 +22,7 @@ The program you write in this project will run from the command line. It won't t
 
 2. Import the data using the below command  
 
- `psql -U username -d news -f newsdata.sql`
+    `psql -U username -d news -f newsdata.sql`
 
 ***username*** - It's the username with which you want to connect  
 
@@ -57,10 +57,13 @@ The program you write in this project will run from the command line. It won't t
 
 ### Usage
 
-1. Run the below command
-``` > python newsdata.py ```  
-2. Open ```http://localhost:8000/```
-3. If **8000** port is already occupied then change the port no in *** newsdata.py *** line no:27
+1. Run the below command  
+
+    ```  python newsdata.py ```   
+
+2. Open ```http://localhost:8000/```  
+
+3. If **8000** port is already occupied then change the port no in ***newsdata.py*** line no:27
 
 
 ### DB Username and password  
@@ -71,5 +74,5 @@ password will not be exposed
 
 To run it either you can store the password and username in **environment variables** and use it or else
 
-*hardcode*[Not recommended] them in the *** newsdb.py *** file line no: 6,7
+*hardcode*[Not recommended] them in the ***newsdb.py*** file line no: 6,7
 
