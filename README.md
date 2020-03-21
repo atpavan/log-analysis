@@ -10,7 +10,7 @@ The program you write in this project will run from the command line. It won't t
 
 ### Data Location
 
-[Download the data Here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
+[Download the data from here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 
 ### Loading the data
 
@@ -55,4 +55,19 @@ The program you write in this project will run from the command line. It won't t
 
 > Example:
 > * July 29, 2016 — 2.5% errors
+
+### Usage
+
+``` > python newsdata.py ```  
+
+
+### DB Username and password  
+
+
+I have stored my postgres db username and password in **environment variables** so that the username and 
+password will not be exposed
+
+To run it either you can store the password and username in **environment variables** and use it or else
+
+*hardcode*[Not recommended] them in the *** newsdb.py *** file line no: 6,7
 
